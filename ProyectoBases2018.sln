@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoBases2018", "ProyectoBases2018\ProyectoBases2018.csproj", "{DDD2BC52-7785-467F-B0C9-4EF3FC429FB2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaUASJ", "ProyectoBases2018\SistemaUASJ.csproj", "{DDD2BC52-7785-467F-B0C9-4EF3FC429FB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datos", "Datos\Datos.csproj", "{A058FB2D-1B0C-4576-90CE-5958D1E0D845}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicadeNegocios", "LogicadeNegocios\LogicadeNegocios.csproj", "{1D48E161-78D1-4402-B211-DEE89D30CF7F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{DDD2BC52-7785-467F-B0C9-4EF3FC429FB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDD2BC52-7785-467F-B0C9-4EF3FC429FB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDD2BC52-7785-467F-B0C9-4EF3FC429FB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A058FB2D-1B0C-4576-90CE-5958D1E0D845}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A058FB2D-1B0C-4576-90CE-5958D1E0D845}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A058FB2D-1B0C-4576-90CE-5958D1E0D845}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A058FB2D-1B0C-4576-90CE-5958D1E0D845}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D48E161-78D1-4402-B211-DEE89D30CF7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D48E161-78D1-4402-B211-DEE89D30CF7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D48E161-78D1-4402-B211-DEE89D30CF7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D48E161-78D1-4402-B211-DEE89D30CF7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

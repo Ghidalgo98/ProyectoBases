@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ProyectoBases2018
+namespace LogicadeNegocios
 {
     public partial class Form1 : Form
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ProyectoBases2018
+namespace Datos
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace ProyectoBases2018
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new LogIn_UASJ());
+            Application.Run(new Form1());
         }
     }
 }

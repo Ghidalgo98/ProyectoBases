@@ -1,4 +1,4 @@
-﻿namespace ProyectoBases2018
+﻿namespace LogicadeNegocios
 {
     partial class Form1
     {
