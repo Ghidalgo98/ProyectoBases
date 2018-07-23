@@ -8,22 +8,30 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ProyectoBases2018.Properties
-{
-
-
+namespace ProyectoBases2018.Properties {
+    
+    
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "11.0.0.0")]
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase
-    {
-
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "14.0.0.0")]
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
-
-        public static Settings Default
-        {
-            get
-            {
+        
+        public static Settings Default {
+            get {
                 return defaultInstance;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute(@"""metadata=res://*/ProyectoBases2018.csdl|res://*/ProyectoBases2018.ssdl|res://*/ProyectoBases2018.msl;provider=MySql.Data.MySqlClient;provider connection string=&quot;server=localhost;user id=ghidalgo;password=Nevermind1992*;database=dbuasj;persistsecurityinfo=True&quot;""")]
+        public string Conexion {
+            get {
+                return ((string)(this["Conexion"]));
+            }
+            set {
+                this["Conexion"] = value;
             }
         }
     }

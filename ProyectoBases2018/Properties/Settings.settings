@@ -1,7 +1,9 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ProyectoBases2018.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Conexion" Type="System.String" Scope="User">
+      <Value Profile="(Default)">"metadata=res://*/ProyectoBases2018.csdl|res://*/ProyectoBases2018.ssdl|res://*/ProyectoBases2018.msl;provider=MySql.Data.MySqlClient;provider connection string=&amp;quot;server=localhost;user id=ghidalgo;password=Nevermind1992*;database=dbuasj;persistsecurityinfo=True&amp;quot;"</Value>
+    </Setting>
+  </Settings>
 </SettingsFile>
